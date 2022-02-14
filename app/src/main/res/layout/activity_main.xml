@@ -119,7 +119,7 @@
         <LinearLayout
             android:background="#6AFFFFFF"
             android:layout_width="1dp"
-            android:layout_height="match_parent"
+            android:layout_height="match_parent"></LinearLayout>
             <Button
                 android:backgroundTint="#00ff0000"
                 android:layout_weight="1"
