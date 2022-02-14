@@ -9,15 +9,15 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_marginTop="50dp"
+        android:layout_marginVertical="50dp"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
             <ImageView
                 android:src="@drawable/nepp_logo"
-                android:layout_width="100dp"
-                android:layout_height="80dp"></ImageView>
+                android:layout_width="200dp"
+                android:layout_height="100dp"></ImageView>
 
     </LinearLayout>
 
@@ -29,14 +29,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+
         <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:src="@drawable/id_icon"></ImageView>
 
-
-    <EditText
+        <EditText
         android:textSize="30dp"
         android:textColorHighlight="#ffffff"
         android:id="@+id/IDE1"
@@ -142,26 +142,82 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <ImageView
-            android:layout_marginHorizontal="10dp"
-            android:src="@drawable/kakao_login_icon"
+        <LinearLayout
+            android:layout_marginHorizontal="20dp"
+            android:gravity="center"
             android:layout_width="50dp"
-            android:layout_height="50dp"></ImageView>
-        <ImageView
-            android:layout_marginHorizontal="10dp"
-            android:src="@drawable/naver_login_icon"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/kakao_login_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"></ImageView>
+            <TextView
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:text="카카오"
+                android:textColor="#ffffff"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
             android:layout_width="50dp"
-            android:layout_height="50dp"></ImageView>
-        <ImageView
-            android:layout_marginHorizontal="10dp"
-            android:src="@drawable/google_login_icon"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/naver_login_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"></ImageView>
+            <TextView
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:text="Naver"
+                android:textColor="#ffffff"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="20dp"
+            android:gravity="center"
             android:layout_width="50dp"
-            android:layout_height="50dp"></ImageView>
-        <ImageView
-            android:layout_marginHorizontal="10dp"
-            android:src="@drawable/apple_login_icon"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/google_login_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"></ImageView>
+            <TextView
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:text="구글"
+                android:textColor="#ffffff"></TextView>
+        </LinearLayout>
+        <LinearLayout
+
+
+            android:gravity="center"
             android:layout_width="50dp"
-            android:layout_height="50dp"></ImageView>
+            android:layout_height="70dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/apple_login_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"></ImageView>
+            <TextView
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:text="애플"
+                android:textColor="#ffffff"></TextView>
+        </LinearLayout>
 
 
 
